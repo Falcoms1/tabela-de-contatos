@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family: "roboto", sans-serif;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    margin: 0;
+  
+  }
+  
+  h1{
+    display:flex;
+    justify-content:center;
+    margin:30px;
+    background:#e3dfba;
+    border-radius: 8px;
+  }
+
+  form {
+    background-color: #93ccc6;
+    padding: 20px;
+    border-radius: 8px;
+    height:500px
+
+}
+
+#inputs{
+  padding:10px;
+}
+
+  table{
+    background:#c8d6bf;
+    display:block;
+    justify-content:center;
+  }
+
+  thead{
+    display:flex;
+    justify-content:center;
+  }
+  
+  tbody{
+    display:block;
+    justify-content:center;
+  }
+
+  td{
+    padding:5px 40px;
+  }
+
+  th{
+    padding:5px 50px;
+  }
